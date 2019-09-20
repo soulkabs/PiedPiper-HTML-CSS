@@ -1,6 +1,7 @@
 body {
 	width: 1219px;
 	padding: 0px 55px;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -19,9 +20,7 @@ header {
 
 .menu {
     display: inline-block;
-    position : absolute;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
+    position : absolute; 
     font-weight: 500;
     font-size: 24px;
     color: #FFFFFF;
@@ -42,8 +41,6 @@ header {
 }
 
 .content {
-	font-family: Roboto, sans-serif;
-	font-style: normal;
 	font-size: 72px;
 	line-height: 84px;
 	text-align: center;
@@ -77,8 +74,7 @@ header {
   background-size: cover;
 }
 
-.hero__message {
-  font-family: Roboto, sans-serif;
+.hero__message {  
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
@@ -94,8 +90,6 @@ header {
 }
 
 .content1 p {
-	font-family: Roboto, sans-serif;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
 	line-height: 37px;
@@ -105,8 +99,6 @@ header {
 }
 
 .content1 h1 {
-	font-family: Roboto, sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 64px;
 	line-height: 75px;
@@ -120,12 +112,10 @@ header {
 	padding-top: 16px;
 	padding-bottom: 35px;
 	padding-right: 48px;
-
 	float: left;
 }
 
 .content2 p {
-	font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -137,72 +127,43 @@ header {
 }
 
 .The_Team {
-	background: #EEEEEE;
-	
+	background: #EEEEEE;	
 }
 
-.content3 h1{
-	font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 64px;
-	line-height: 75px;
-	color: #007765;
-	text-align: center;
-	padding-top: 48px;
+h1 {
+  padding-top: 48px;
+  color: #007765;
+  font-weight: 500;
+  text-align: center;
+  font-size: 64px;
 }
 
-.Richard, .Jared {
-	padding-left: 145px;
-	display: inline-block;
+.member {
+  flex-basis:30%;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
-.Dinesh, .Monica {
-	display: inline-block;
-	padding-right: 212px;
-	padding-left: 212px;
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
 }
 
-.Nelson, .Bertram {
-	display: inline-block;
+.member-role {
+  font-style: italic;
+  font-size: 18px;
 }
 
-.Richard , .Dinesh , .Bertram{
-	padding-bottom: 82px;
-}
-
-.Jared, .Monica, .Nelson{
-	padding-bottom: 122px;
-}
-
-.Richard p, .Jared p, .Dinesh p, .Monica p, .Nelson p, .Bertram p{
-	font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	color: #007765;
-	text-align: center;
-}
-
-.Richard i, .Dinesh i, .Bertram i{
-	font-family: Roboto, sans-serif;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 21px;
-	text-align: center;
-	color: #000000;
-}
-
-.Jared i, .Monica i, .Nelson i{
-	font-family: Roboto, sans-serif;
-	font-style: italic;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 21px;
-	text-align: center;
-	color: #000000;
+.members {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .last{
@@ -211,8 +172,6 @@ header {
 }
 
 .info{
-	font-family: Roboto, sans-serif;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 21px;
