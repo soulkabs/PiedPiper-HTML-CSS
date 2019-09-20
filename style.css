@@ -1,0 +1,222 @@
+body {
+	width: 1219px;
+	padding: 0px 55px;
+}
+
+header {
+	width: 1219px;
+	position: fixed;
+	background: #007765;
+	height: 84px;
+	top: 0px;
+	right: auto;	
+}
+
+.logo {
+   display: inline-block;
+   padding: 20px 0px 19px 55px; 
+}
+
+.menu {
+    display: inline-block;
+    position : absolute;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    top : 29px;
+    right: 55px;
+}
+
+.menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.PiperNet_Is_Here {
+	background-image: url("image.png");
+	background-size: cover;
+	padding: 160px 0px;
+	width: 100%;
+}
+
+.content {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.The_Problem {
+	background-color: #EEEEEE;
+	padding: 48px 0px;
+}
+
+.content h1 {
+	font-size: 64px;
+	line-height: 75px;
+	color: #007765;
+}
+
+.content p {;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: left;
+	color: #000000;
+	padding-left: 55px;
+	padding-right: 54px;
+}
+
+.hero {
+  padding: 128px 0;
+  background-image: url(image-1.png);
+  background-size: cover;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+  padding-left: 163px;
+  padding-right: 163px;
+}
+
+.Introducing {
+	background: #FFFFFF;
+}
+
+.content1 p {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	padding-bottom: 40px;
+	padding-right: 71px;
+}
+
+.content1 h1 {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color: #007765;
+	padding-top: 48px;
+	text-align: center;
+}
+
+.logo2 {
+	padding-left: 55px;
+	padding-top: 16px;
+	padding-bottom: 35px;
+	padding-right: 48px;
+
+	float: left;
+}
+
+.content2 p {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	padding-bottom: 92px;
+	padding-left: 55px;
+	padding-right: 54px
+}
+
+.The_Team {
+	background: #EEEEEE;
+	
+}
+
+.content3 h1{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color: #007765;
+	text-align: center;
+	padding-top: 48px;
+}
+
+.Richard, .Jared {
+	padding-left: 145px;
+	display: inline-block;
+}
+
+.Dinesh, .Monica {
+	display: inline-block;
+	padding-right: 212px;
+	padding-left: 212px;
+}
+
+.Nelson, .Bertram {
+	display: inline-block;
+}
+
+.Richard , .Dinesh , .Bertram{
+	padding-bottom: 82px;
+}
+
+.Jared, .Monica, .Nelson{
+	padding-bottom: 122px;
+}
+
+.Richard p, .Jared p, .Dinesh p, .Monica p, .Nelson p, .Bertram p{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+	text-align: center;
+}
+
+.Richard i, .Dinesh i, .Bertram i{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+}
+
+.Jared i, .Monica i, .Nelson i{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+}
+
+.last{
+	background: #333333;
+	width: 100%;
+}
+
+.info{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 48px 339px 64px 340px;
+}
