@@ -1,0 +1,115 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1124px)  {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	h1 {
+    font-size: 45px;
+    }
+
+	.hero__message {
+    font-size: 32px;
+    padding-right: 10%;
+    padding-left: 56px;
+	}
+
+	.footer span {
+    padding: 50px 105px 62px 105px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+	.image {
+    font-size: 30px;
+    padding: 60px 0px;
+	}
+
+	h1 {
+    font-size: 32px;
+	}
+
+	p {
+    font-size: 16px;
+	}
+
+	.problem {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	}
+
+	.hero {
+    padding: 40px 0; 
+	}
+
+	.hero__message {
+    font-size: 18px;
+    padding-right: 0px;
+    padding-left: 0px;
+	}
+
+	.Introducing {
+    padding-top: 0px;
+	}
+
+	h1 {
+	    font-size: 22px;
+	}
+
+	.footer span {
+    font-size: 12px;
+    padding: 35px 30px 35px 30px;
+	}
+
+	.member img {
+		height: 55px; 
+		width: 55px;
+	}
+
+	.members {
+    justify-content: center;
+	}
+
+	.team {
+    background: #EEEEEE;
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+	}
+
+	.member-name {
+    margin-top: 6px;
+    font-size: 14px;
+	}
+	.member-role {
+    font-size: 10px;
+	}
+	.member {
+	    flex-basis: 33%;
+	    padding: 5px;
+	    margin-bottom: 0px; 
+	}
+	.The_Team {
+	    padding-bottom: 0px;
+	}
+
+	.Introducing img{
+		width: 75px;
+		height: 75px;
+	}
+
+	.content img{
+		width: 75px;
+		height: 25px;
+	}
+	.content a {
+	    font-size: 10px;
+	  
+	}
+	.content {
+	    height: 64px;
+	}
+}
+

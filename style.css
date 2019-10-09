@@ -1,145 +1,118 @@
 body {
-	width: 1219px;
-	padding: 0px 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
-header {
-	width: 1219px;
-	position: fixed;
-	background: #007765;
-	height: 84px;
-	top: 0px;
-	right: auto;	
-}
-
-.logo {
-   display: inline-block;
-   padding: 20px 0px 19px 55px; 
-}
-
-.menu {
-    display: inline-block;
-    position : absolute; 
-    font-weight: 500;
+.content a{
+	color: white;
     font-size: 24px;
-    color: #FFFFFF;
-    top : 29px;
-    right: 55px;
-}
-
-.menu a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-.PiperNet_Is_Here {
-	background-image: url("image.png");
-	background-size: cover;
-	padding: 160px 0px;
-	width: 100%;
+    text-decoration: none;
 }
 
 .content {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	background-color: #007765;
+	height: 84px;	
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	width: 1100px;	
+}
+
+.menu {
+	display:flex;
+	
+	align-items: center;
+}
+/*---------------------------------*/
+.image {
+	background-image: url("image.png");
+	color: white;
 	font-size: 72px;
-	line-height: 84px;
+	background-size: cover;
+	padding: 160px 0px;
 	text-align: center;
-	color: #FFFFFF;
+}
+/*--------------------------------*/
+.problem {
+	display: flex;
+	justify-content: center;
+	background: #EEEEEE;
+	padding-top: 48px;
+	padding-bottom: 92px;
 }
 
-.The_Problem {
-	background-color: #EEEEEE;
-	padding: 48px 0px;
-}
-
-.content h1 {
+ h1 {
 	font-size: 64px;
 	line-height: 75px;
+	text-align: center;
 	color: #007765;
+	margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.content p {;
+p {
 	font-weight: normal;
 	font-size: 32px;
-	line-height: 37px;
-	text-align: left;
-	color: #000000;
-	padding-left: 55px;
-	padding-right: 54px;
 }
-
+/*------------------------------*/
 .hero {
-  padding: 128px 0;
-  background-image: url(image-1.png);
-  background-size: cover;
+	display: flex;
+	justify-content: center;
+  	padding: 128px 0;
+  	background-image: url(image-1.png);
+ 	background-size: cover;
 }
 
 .hero__message {  
   font-style: italic;
-  font-weight: 500;
   font-size: 48px;
-  line-height: 56px;
   text-align: center;
   color: #fff;
-  padding-left: 163px;
-  padding-right: 163px;
 }
-
+/*-------------------------------*/
 .Introducing {
-	background: #FFFFFF;
-}
-
-.content1 p {
-	font-weight: normal;
-	font-size: 32px;
-	line-height: 37px;
-	color: #000000;
-	padding-bottom: 40px;
-	padding-right: 71px;
-}
-
-.content1 h1 {
-	font-weight: 500;
-	font-size: 64px;
-	line-height: 75px;
-	color: #007765;
 	padding-top: 48px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
-.logo2 {
-	padding-left: 55px;
-	padding-top: 16px;
-	padding-bottom: 35px;
-	padding-right: 48px;
-	float: left;
+.p1 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;	
 }
-
-.content2 p {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 32px;
-	line-height: 37px;
-	color: #000000;
-	padding-bottom: 92px;
-	padding-left: 55px;
-	padding-right: 54px
+/*-----------------------------*/
+.team {
+	background: #EEEEEE;
+	padding-top: 58px;
+	padding-bottom: 25px;
 }
-
 .The_Team {
-	background: #EEEEEE;	
+	background: #EEEEEE;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 112px;	
 }
 
-h1 {
-  padding-top: 48px;
-  color: #007765;
-  font-weight: 500;
-  text-align: center;
-  font-size: 64px;
+.members {
+  display: flex;
+  justify-content: space-between;	
+  width: 1100px;
+  flex-wrap: wrap;
 }
 
 .member {
-  flex-basis:30%;
+  flex-basis:33%;
   text-align: center;
   padding: 24px;
   box-sizing: border-box;
@@ -158,24 +131,17 @@ h1 {
   font-style: italic;
   font-size: 18px;
 }
-
-.members {
-  width: 100%;
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.last{
+/*----------------*/
+.footer{
 	background: #333333;
-	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
-.info{
+.footer span{
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 21px;
 	text-align: center;
 	color: #FFFFFF;
-	padding: 48px 339px 64px 340px;
+	padding: 50px 310px 62px 310px;
 }
